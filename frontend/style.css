@@ -5,14 +5,14 @@ html, body {
 }
 body {
   font-family: Arial, sans-serif;
-  background: #003366; /* Dark blue background */
+  background: #003366; 
   display: flex;
   flex-direction: column;
-  min-height: 100vh;  /* Ensure body fills viewport height */
+  min-height: 100vh;  
   box-sizing: border-box;
 }
 header {
-  background: #003366; /* keep header same dark blue */
+  background: #003366; 
   padding: 20px;
   text-align: center;
 }
@@ -23,14 +23,14 @@ header h1 {
   user-select: none;
 }
 
-/* Style "Spark" and "Sport" differently */
+
 header h1 .spark {
-  color: #66ccff; /* Light blue */
+  color: #66ccff; 
   font-weight: bold;
 }
 
 header h1 .sport {
-  color: #ff6600; /* Orange */
+  color: #ff6600; 
   font-weight: bold;
 }
 
@@ -39,16 +39,16 @@ header h1 .sport {
   padding: 5px 10px;
   font-size: 16px;
   border-radius: 4px;
-  border: 2px solid #ff6600; /* Orange border */
-  background-color: #003366; /* Dark blue */
-  color: #66ccff; /* Light blue text */
+  border: 2px solid #ff6600; 
+  background-color: #003366; 
+  color: #66ccff; 
   cursor: pointer;
 }
 
 .products {
   padding: 20px;
   text-align: center;
-  color: #66ccff; /* Light blue */
+  color: #66ccff; 
 }
 
 .product-list {
@@ -59,17 +59,17 @@ header h1 .sport {
 }
 
 .product-card {
-  background: #004080; /* Slightly lighter dark blue */
-  border: 2px solid #ff6600; /* Orange border */
+  background: #004080; 
+  border: 2px solid #ff6600; 
   padding: 15px;
   width: 200px;
-  color: #66ccff; /* Light blue text */
+  color: #66ccff; 
   border-radius: 6px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.5);
 }
 
 .product-card button {
-  background-color: #ff6600; /* Orange button */
+  background-color: #ff6600; 
   border: none;
   color: white;
   padding: 10px 15px;
@@ -80,7 +80,7 @@ header h1 .sport {
 }
 
 .product-card button:hover {
-  background-color: #cc5200; /* Darker orange on hover */
+  background-color: #cc5200;
 }
 
 .burger-icon {
@@ -88,14 +88,14 @@ header h1 .sport {
   font-size: 28px;
   position: relative;
   user-select: none;
-  color: black; /* Light blue */
+  color: black; 
 }
 
 #cart-count {
   position: absolute;
   top: -8px;
   right: -12px;
-  background: #ff6600; /* Orange */
+  background: #ff6600; 
   border-radius: 50%;
   padding: 2px 6px;
   font-size: 14px;
@@ -115,18 +115,18 @@ header h1 .sport {
   padding: 20px 0; 
   box-sizing: border-box;
   z-index: 1000;
-  /* no border here, only on open */
+
 }
 
 .cart-sidebar.open {
   width: 300px;
-  border-left: 2px solid #ff6600; /* Add left border here */
+  border-left: 2px solid #ff6600; 
 }
 #close-cart {
   background: transparent;
   border: none;
   font-size: 30px;
-  color: #ff6600; /* Orange close button */
+  color: #ff6600; 
   cursor: pointer;
   position: absolute;
   top: 10px;
@@ -164,22 +164,22 @@ header h1 .store {
   font-weight: bold;
 }
 #page-container {
-  flex: 1 0 auto; /* grow and fill available space */
+  flex: 1 0 auto;
   display: flex;
   flex-direction: column;
-  padding: 20px; /* Optional padding */
+  padding: 20px; 
   color: #66ccff;
 }
 
 
-/* Footer will stay at bottom and not shrink */
+
 #footer {
   flex-shrink: 0;
-  background-color: #002244; /* Darker blue */
-  color: #66ccff; /* Light blue */
+  background-color: #002244; 
+  color: #66ccff; 
   padding: 20px;
   text-align: center;
   font-size: 14px;
-  border-top: 2px solid #ff6600; /* Orange border */
+  border-top: 2px solid #ff6600; 
   user-select: none;
 }
