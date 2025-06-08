@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HoopZone Store</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1><span class="Spark">Spark</span> <span class="store">Store</span></h1>
+
+    <select id="category-select">
+      <option value="all">All Products</option>
+      <option value="balls">Balls</option>
+      <option value="shoes">Shoes</option>
+      <option value="shorts">Shorts</option>
+      <option value="shirts">Shirts</option>
+      <option value="arm sleeves">Arm Sleeves</option>
+      <option value="leg sleeves">Leg Sleeves</option>
+      <option value="headbands">Headbands</option>
+      <option value="socks">Socks</option>
+      <option value="bags">Bags</option>
+      <option value="training cones">Training Cones</option>
+    </select>
+
+    <div id="cart-icon" class="burger-icon">
+      &#9776; <span id="cart-count">0</span>
+    </div>
+  </header>
+
+  <div id="page-container">
+    <section class="products" id="product-section">
+      <h2>Products</h2>
+      <div class="product-list" id="product-list"></div>
+    </section>
+  </div>
+
+  <div id="cart-sidebar" class="cart-sidebar">
+    <h3>Your Cart</h3>
+    <button id="close-cart">×</button>
+    <ul id="cart-items"></ul>
+    <p>Total: $<span id="cart-total">0.00</span></p>
+  </div>
+
+  <footer id="footer">
+    <p>© 2025 HoopZone Store. All rights reserved.</p>
+    <p>Contact us: support@SparkStore.com | Phone: 577 77 77 77 </p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

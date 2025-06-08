@@ -1,0 +1,205 @@
+[
+  {
+    "id": 1,
+    "name": "Official Game Basketball",
+    "category": "balls",
+    "price": 29.99,
+    "image": "https://images.unsplash.com/photo-1579985531065-df5f7d8a818d"
+  },
+  {
+    "id": 2,
+    "name": "Indoor Training Basketball",
+    "category": "balls",
+    "price": 24.99,
+    "image": "https://images.unsplash.com/photo-1551754655-93f27c9d5f57"
+  },
+  {
+    "id": 3,
+    "name": "Outdoor Street Basketball",
+    "category": "balls",
+    "price": 19.99,
+    "image": "https://images.unsplash.com/photo-1620315978137-0a59d9b7d2b3"
+  },
+  {
+    "id": 4,
+    "name": "High Performance Basketball Shoes",
+    "category": "shoes",
+    "price": 109.99,
+    "image": "https://images.unsplash.com/photo-1600181952764-9e31b398fe47"
+  },
+  {
+    "id": 5,
+    "name": "Grip Low-Top Basketball Shoes",
+    "category": "shoes",
+    "price": 89.99,
+    "image": "https://images.unsplash.com/photo-1571731956672-bbaffc2e98c5"
+  },
+  {
+    "id": 6,
+    "name": "Retro Basketball Sneakers",
+    "category": "shoes",
+    "price": 129.99,
+    "image": "https://images.unsplash.com/photo-1618354691227-6d661c384b5a"
+  },
+  {
+    "id": 7,
+    "name": "Lightweight Athletic Shorts",
+    "category": "shorts",
+    "price": 24.99,
+    "image": "https://images.unsplash.com/photo-1603808033193-dc1b6b3a3fae"
+  },
+  {
+    "id": 8,
+    "name": "Mesh Basketball Shorts",
+    "category": "shorts",
+    "price": 19.99,
+    "image": "https://images.unsplash.com/photo-1627496301576-d0fe3b2a8c08"
+  },
+  {
+    "id": 9,
+    "name": "Double-Layer Training Shorts",
+    "category": "shorts",
+    "price": 27.99,
+    "image": "https://images.unsplash.com/photo-1593222652435-2211e22b3820"
+  },
+  {
+    "id": 10,
+    "name": "Moisture-Wicking Shirt",
+    "category": "shirts",
+    "price": 22.99,
+    "image": "https://images.unsplash.com/photo-1593032457869-c4e14f290b6c"
+  },
+  {
+    "id": 11,
+    "name": "Sleeveless Performance Tee",
+    "category": "shirts",
+    "price": 18.99,
+    "image": "https://images.unsplash.com/photo-1602143407151-711e7c5f4079"
+  },
+  {
+    "id": 12,
+    "name": "Long Sleeve Training Shirt",
+    "category": "shirts",
+    "price": 25.99,
+    "image": "https://images.unsplash.com/photo-1625312995125-92e0f3b7815b"
+  },
+  {
+    "id": 13,
+    "name": "Compression Arm Sleeve",
+    "category": "arm sleeves",
+    "price": 12.99,
+    "image": "https://images.unsplash.com/photo-1633496690177-39d0cf969aa4"
+  },
+  {
+    "id": 14,
+    "name": "Anti-Slip Arm Sleeve",
+    "category": "arm sleeves",
+    "price": 15.99,
+    "image": "https://images.unsplash.com/photo-1614031195823-d0b6f3887358"
+  },
+  {
+    "id": 15,
+    "name": "Padded Arm Sleeve",
+    "category": "arm sleeves",
+    "price": 17.99,
+    "image": null
+  },
+  {
+    "id": 16,
+    "name": "Full-Length Leg Sleeves",
+    "category": "leg sleeves",
+    "price": 19.99,
+    "image": "https://images.unsplash.com/photo-1607083209940-57f3bd44e3ec"
+  },
+  {
+    "id": 17,
+    "name": "Compression Leg Sleeves",
+    "category": "leg sleeves",
+    "price": 16.99,
+    "image": "https://images.unsplash.com/photo-1610173827199-b769b77c9e5b"
+  },
+  {
+    "id": 18,
+    "name": "Padded Leg Sleeves",
+    "category": "leg sleeves",
+    "price": 21.99,
+    "image": "https://images.unsplash.com/photo-1606670562194-ff7544699d18"
+  },
+  {
+    "id": 19,
+    "name": "Sweat-Wicking Headband",
+    "category": "headbands",
+    "price": 6.99,
+    "image": "https://images.unsplash.com/photo-1589182374697-3e2a194f0847"
+  },
+  {
+    "id": 20,
+    "name": "Reversible Headband",
+    "category": "headbands",
+    "price": 8.99,
+    "image": "https://images.unsplash.com/photo-1621955983595-8fca104d3324"
+  },
+  {
+    "id": 21,
+    "name": "Grip Basketball Socks",
+    "category": "socks",
+    "price": 9.99,
+    "image": "https://images.unsplash.com/photo-1611095564794-5746e8c4a60b"
+  },
+  {
+    "id": 22,
+    "name": "High-Cushion Crew Socks",
+    "category": "socks",
+    "price": 11.99,
+    "image": "https://images.unsplash.com/photo-1601233749822-55e5e7e5035d"
+  },
+  {
+    "id": 23,
+    "name": "Low-Cut Performance Socks",
+    "category": "socks",
+    "price": 7.99,
+    "image": "https://images.unsplash.com/photo-1605711541674-bd019acfa8dc"
+  },
+  {
+    "id": 24,
+    "name": "Backpack Duffel Hybrid Bag",
+    "category": "bags",
+    "price": 39.99,
+    "image": "https://images.unsplash.com/photo-1574514579247-d9cc36a86384"
+  },
+  {
+    "id": 25,
+    "name": "Drawstring Training Bag",
+    "category": "bags",
+    "price": 14.99,
+    "image": "https://images.unsplash.com/photo-1533236897111-3e6c21ca177a"
+  },
+  {
+    "id": 26,
+    "name": "Pro Trainer Duffel Bag",
+    "category": "bags",
+    "price": 44.99,
+    "image": "https://images.unsplash.com/photo-1561388744-6a634e3dbbdd"
+  },
+  {
+    "id": 27,
+    "name": "Training Cones (Set of 12)",
+    "category": "training cones",
+    "price": 15.99,
+    "image": "https://images.unsplash.com/photo-1597692490503-d45f80afab46"
+  },
+  {
+    "id": 28,
+    "name": "Collapsible Training Cones",
+    "category": "training cones",
+    "price": 13.99,
+    "image": "https://images.unsplash.com/photo-1636219615607-0c33a70504c3"
+  },
+  {
+    "id": 29,
+    "name": "Weighted Training Cones",
+    "category": "training cones",
+    "price": 18.99,
+    "image": "https://images.unsplash.com/photo-1556909172-5453e3b5a943"
+  }
+]

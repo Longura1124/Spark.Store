@@ -1,0 +1,185 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  background: #003366; /* Dark blue background */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;  /* Ensure body fills viewport height */
+  box-sizing: border-box;
+}
+header {
+  background: #003366; /* keep header same dark blue */
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin: 0;
+  user-select: none;
+}
+
+/* Style "Spark" and "Sport" differently */
+header h1 .spark {
+  color: #66ccff; /* Light blue */
+  font-weight: bold;
+}
+
+header h1 .sport {
+  color: #ff6600; /* Orange */
+  font-weight: bold;
+}
+
+#category-select {
+  margin-left: 20px;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 2px solid #ff6600; /* Orange border */
+  background-color: #003366; /* Dark blue */
+  color: #66ccff; /* Light blue text */
+  cursor: pointer;
+}
+
+.products {
+  padding: 20px;
+  text-align: center;
+  color: #66ccff; /* Light blue */
+}
+
+.product-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  background: #004080; /* Slightly lighter dark blue */
+  border: 2px solid #ff6600; /* Orange border */
+  padding: 15px;
+  width: 200px;
+  color: #66ccff; /* Light blue text */
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+
+.product-card button {
+  background-color: #ff6600; /* Orange button */
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.product-card button:hover {
+  background-color: #cc5200; /* Darker orange on hover */
+}
+
+.burger-icon {
+  cursor: pointer;
+  font-size: 28px;
+  position: relative;
+  user-select: none;
+  color: black; /* Light blue */
+}
+
+#cart-count {
+  position: absolute;
+  top: -8px;
+  right: -12px;
+  background: #ff6600; /* Orange */
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 14px;
+  color: white;
+}
+
+.cart-sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 0; 
+  height: 100%;
+  background-color: #003366;
+  color: #66ccff;
+  overflow-x: hidden; 
+  transition: width 0.3s ease;
+  padding: 20px 0; 
+  box-sizing: border-box;
+  z-index: 1000;
+  /* no border here, only on open */
+}
+
+.cart-sidebar.open {
+  width: 300px;
+  border-left: 2px solid #ff6600; /* Add left border here */
+}
+#close-cart {
+  background: transparent;
+  border: none;
+  font-size: 30px;
+  color: #ff6600; /* Orange close button */
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+#cart-items {
+  list-style: none;
+  padding: 0;
+  margin-top: 50px;
+}
+
+#cart-items li {
+  padding: 10px 0;
+  border-bottom: 1px solid #ff6600; 
+}
+
+#cart-icon {
+  position: fixed;
+  top: 15px;         
+  right: 20px;       
+  font-size: 28px;
+  cursor: pointer;
+  user-select: none;
+  color: #66ccff; 
+  z-index: 1100;     
+}
+header h1 .Spark {
+  color: #66ccff; 
+  font-weight: bold;
+}
+
+header h1 .store {
+  color: #ff6600; 
+  font-weight: bold;
+}
+#page-container {
+  flex: 1 0 auto; /* grow and fill available space */
+  display: flex;
+  flex-direction: column;
+  padding: 20px; /* Optional padding */
+  color: #66ccff;
+}
+
+
+/* Footer will stay at bottom and not shrink */
+#footer {
+  flex-shrink: 0;
+  background-color: #002244; /* Darker blue */
+  color: #66ccff; /* Light blue */
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  border-top: 2px solid #ff6600; /* Orange border */
+  user-select: none;
+}
